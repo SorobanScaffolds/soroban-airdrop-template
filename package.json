@@ -1,0 +1,23 @@
+{
+  "name": "soroban-airdrop-template",
+  "version": "1.0.0",
+  "description": "Welcome to the **Soroban Airdrop Claim Template**! This open-source boilerplate provides everything a Stellar ecosystem project needs to launch a token airdrop using Soroban smart contracts and a modern Next.js frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorobanScaffolds/soroban-airdrop-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SorobanScaffolds/soroban-airdrop-template/issues"
+  },
+  "homepage": "https://github.com/SorobanScaffolds/soroban-airdrop-template#readme",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^17.2.1"
+  }
+}

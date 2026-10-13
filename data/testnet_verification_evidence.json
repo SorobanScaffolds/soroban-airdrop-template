@@ -1,0 +1,29 @@
+{
+  "repository": "SorobanScaffolds/soroban-airdrop-template",
+  "testnet_verified_at": "2026-10-13T15:02:27.567Z",
+  "network": "Stellar Testnet",
+  "accounts": {
+    "admin": "GBVZFSSQOGIL6VZ27QQJABGIYSK4B45HZIQOS5BDBKZJOSQPE5VIEJVT",
+    "claimant_eligible": "GDDQA3JUT3LUF3ZJ36VOBH6VMT62YLOUVWQDNHF4R6H5ZCXAQNOURCIH",
+    "claimant_unauthorized": "GD6KCVYJREOW3XE4D64SWK6JE25CJYFMSIJZ25QFWN5OMRCGRFEOAYSP"
+  },
+  "merkle_distribution": {
+    "root": "0x66e3513bcac762c8ccf4d648aff21fbbde32783d3bfefc85f2b665e294d402b2",
+    "recipient_count": 3,
+    "sample_proof": [
+      "0x4d9c9983d9cf4ca91f16d0c9e1fbfda84b5a619c3cbe5b6da9fe8a5139ebda50",
+      "0xa125f3ff461964183fb8571db8073ef8ad0d676e653a2e64d2e6d92d48617bce"
+    ]
+  },
+  "live_transaction": {
+    "hash": "f3dd58082684ae48c825e656b133a741d2a7c6ffed8becf66e7f879cf24c39ab",
+    "ledger": 5176032,
+    "memo_merkle_root": "66e3513bcac762c8ccf4d648aff21fbbde32783d3bfefc85f2b665e294d402b2",
+    "explorer_url": "https://stellar.expert/explorer/testnet/tx/f3dd58082684ae48c825e656b133a741d2a7c6ffed8becf66e7f879cf24c39ab"
+  },
+  "rejection_cases_verified": {
+    "tampered_amount_rejected": true,
+    "unauthorized_claimant_rejected": true,
+    "duplicate_claim_prevented": true
+  }
+}

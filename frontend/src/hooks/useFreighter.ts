@@ -17,11 +17,14 @@ export const useFreighter = () => {
       }
 
       const access = await requestAccess();
-      if (access) {
-        const address = await getAddress();
+      if (access && !(access as any).error) {
+        const addressResult = await getAddress();
+        const addr = typeof addressResult === 'string' 
+          ? addressResult 
+          : (addressResult as any)?.address;
 
-        if (address) {
-          setWalletConnected(address);
+        if (addr) {
+          setWalletConnected(addr);
         } else {
           throw new Error('Failed to retrieve wallet address.');
         }

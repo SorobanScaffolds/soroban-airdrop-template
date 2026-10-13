@@ -4,7 +4,7 @@ First off, thank you for considering contributing to the Soroban Airdrop Claim T
 
 ## 🌊 How the Stellar Drips Wave Works
 As part of the Drips Wave program, we maintain a backlog of issues that are eligible for rewards. 
-1. **Find an Issue**: Look at our [Issues tab](https://github.com/OAKVISUALZ/soroban-airdrop-template/issues) for issues labeled `wave-eligible` or `good first issue`.
+1. **Find an Issue**: Look at our [Issues tab](https://github.com/SorobanScaffolds/soroban-airdrop-template/issues) for issues labeled `wave-eligible` or `good first issue`.
 2. **Claim It**: Comment on the issue asking to be assigned so others know you are working on it.
 3. **Submit a PR**: Fork the repo, make your changes, and submit a Pull Request (PR) linking to the issue.
 4. **Earn Rewards**: Once your PR is merged during an active Wave cycle, you will earn points that translate to rewards from the Drips pool.
